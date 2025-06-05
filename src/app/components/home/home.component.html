@@ -1,1 +1,53 @@
-<p>home works!</p>
+<main class="pt-20 text-white bg-gray-900 min-h-screen relative overflow-hidden grid-bg z-10">
+
+
+  <!-- Heading -->
+  <div class="mb-10 text-center">
+  <h1 class="text-3xl md:text-7xl font-extrabold text-white">
+    Hi, I'm
+    <span class="typing-text text-blue-400 whitespace-nowrap">Nikhil Malave</span>
+  </h1>
+  <p class="mt-4 text-lg md:text-2xl text-gray-400">
+    Full Stack Developer | MERN | MEAN | Java | Open Source Enthusiast
+  </p>
+</div>
+
+
+  <!-- Content Section -->
+  <div class="flex flex-col lg:flex-row items-center justify-around gap-12 mb-20 min-h-[270px]">
+  <!-- Image -->
+  <div class="w-64 h-64">
+    <img src="assets/profile.jpg" alt="My Photo" class="rounded-2xl shadow-lg object-cover w-full h-full">
+  </div>
+
+  <!-- Description -->
+  <div class="max-w-xl text-center lg:text-left">
+    <h2 class="text-4xl font-semibold mb-4">About Me</h2>
+    <p class="text-gray-300 text-xl">
+      I'm a passionate developer with a strong background in web technologies, backend development,
+      and real-world projects. I love building scalable applications, solving problems, and exploring
+      the latest tech in the development world.
+    </p>
+  </div>
+</div>
+
+
+  <!-- Buttons -->
+  <div class="flex justify-center gap-6">
+    <!-- Resume Button -->
+    <a href="assets/Resume.pdf" download
+       class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg flex items-center gap-2 transition">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"/>
+      </svg>
+      Resume
+    </a>
+
+    <!-- Contact Button -->
+    <a routerLink="/contact"
+       class="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition">
+      Contact Me
+    </a>
+  </div>
+</main>
+

@@ -1,2 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+.active-link {
+  @apply text-white underline decoration-white decoration-[1px] underline-offset-4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+

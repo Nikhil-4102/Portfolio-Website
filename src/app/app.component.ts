@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
+
 import { NevbarComponent } from './components/nevbar/nevbar.component';
+import { HomeComponent } from "./components/home/home.component";
+import { AboutComponent } from "./components/about/about.component";
+import { ProjectsComponent } from "./components/projects/projects.component";
+import { ContactsComponent } from "./components/contacts/contacts.component";
+import { FooterComponent } from "./components/footer/footer.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,RouterLink,NevbarComponent],
+  imports: [ NevbarComponent, HomeComponent, AboutComponent, ProjectsComponent, ContactsComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

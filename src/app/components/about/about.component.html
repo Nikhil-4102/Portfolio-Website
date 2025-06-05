@@ -1,1 +1,109 @@
-<p>about works!</p>
+<div class=" pt-23 bg-gray-900 min-h-screen py-12 md:px-12 lg:px-24 text-white">
+  <div class="max-w-7xl mx-auto bg-gray-950 bg-opacity-60 rounded-3xl p-10 shadow-xl backdrop-blur-md">
+    <!-- 1st Div: Heading + Description -->
+    <div class="mb-17 text-center lg:text-left">
+      <h2 class="text-5xl font-extrabold mb-6 tracking-wide">About Me</h2>
+      <p class="text-gray-500 text-lg leading-relaxed">
+        I'm a passionate developer with a strong background in web technologies, backend development,
+        and real-world projects. I love building scalable applications, solving problems, and exploring
+        the latest tech in the development world.
+      </p>
+    </div>
+
+    <!-- 2nd Div: Flex container -->
+    <div class="flex flex-col lg:flex-row items-center justify-around gap-15">
+      <!-- Left div: Bullet points -->
+      <div class="flex-1 bg-gray-700 bg-opacity-30 rounded-2xl p-8 shadow-md max-w-xl mx-auto lg:mx-0">
+        <ul class="relative text-white font-semibold space-y-12 text-xl max-w-md mx-auto">
+          <!-- bullets as before, unchanged -->
+          <li class="flex items-center space-x-6">
+            <span class="relative flex flex-col items-center">
+              <span class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white z-10">
+                <!-- Leadership icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 7V3m0 0L7 7m5-4l5 4m-5 0v14" />
+                </svg>
+              </span>
+              <span class="absolute top-10 left-1/2 w-1 bg-blue-500 h-full -translate-x-1/2"></span>
+            </span>
+            <span>Leadership</span>
+          </li>
+          <li class="flex items-center space-x-6">
+            <span class="relative flex flex-col items-center">
+              <span class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white z-10">
+                <!-- Responsibility icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 12v.01M12 3c-1.105 0-2 .895-2 2v4h4V5c0-1.105-.895-2-2-2zM4 21h16v-2c0-3-4-6-8-6s-8 3-8 6v2z" />
+                </svg>
+              </span>
+              <span class="absolute top-10 left-1/2 w-1 bg-green-500 h-full -translate-x-1/2"></span>
+            </span>
+            <span>Responsibility</span>
+          </li>
+          <li class="flex items-center space-x-6">
+            <span class="relative flex flex-col items-center">
+              <span class="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center text-white z-10">
+                <!-- Debugging icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4v2m-2-6h4m-4 0h-2m6-2a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </span>
+              <span class="absolute top-10 left-1/2 w-1 bg-yellow-500 h-full -translate-x-1/2"></span>
+            </span>
+            <span>Debugging and Problem Solving</span>
+          </li>
+          <li class="flex space-x-6">
+            <span class="relative flex flex-col items-center">
+              <span class="w-8 h-8 bg-pink-500 rounded-full flex items-center justify-center text-white z-10">
+                <!-- Team Collaboration icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m9-2a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              </span>
+            </span>
+            <span>Team Collaboration</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right div: Photo + overlay -->
+      <div class="relative flex-1 max-w-sm mx-auto lg:mx-0">
+        <img
+          src="assets/profile.jpg"
+          alt="My Official Photo"
+          class="rounded-3xl shadow-lg object-cover w-full h-auto"
+        />
+
+        <!-- Overlay stats -->
+        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-green-700 bg-opacity-90 px-4 py-5 flex space-x-3 text-white font-bold shadow-lg ">
+          <!-- Projects -->
+          <div class="text-center px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
+            <div class="text-4xl">20+</div>
+            <div class="text-sm uppercase tracking-wide">Projects</div>
+          </div>
+
+          <!-- Divider slash -->
+          <div class="flex flex-col ">
+            <div class="text-xl opacity-70">|</div>
+            <div class="text-xl opacity-70">|</div>
+            <div class="text-xl opacity-70">|</div>
+          </div>
+          
+
+          <!-- Patents and Publications -->
+          <div class="flex items-center space-x-4 text-center">
+            <div class="px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
+              <div class="text-2xl">2</div>
+              <div class="text-sm uppercase tracking-wide">Patents</div>
+            </div>
+            <div class="text-3xl opacity-70">/</div>
+            <div class="px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
+              <div class="text-2xl">6</div>
+              <div class="text-sm uppercase tracking-wide">Publications</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
