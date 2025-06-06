@@ -1,17 +1,22 @@
 <div class=" pt-23 bg-gray-900 min-h-screen py-12 md:px-12 lg:px-24 text-white">
   <div class="max-w-7xl mx-auto bg-gray-950 bg-opacity-60 rounded-3xl p-10 shadow-xl backdrop-blur-md">
     <!-- 1st Div: Heading + Description -->
-    <div class="mb-17 text-center lg:text-left">
-      <h2 class="text-5xl font-extrabold mb-6 tracking-wide">About Me</h2>
-      <p class="text-gray-500 text-lg leading-relaxed">
-        I'm a passionate developer with a strong background in web technologies, backend development,
-        and real-world projects. I love building scalable applications, solving problems, and exploring
-        the latest tech in the development world.
+     <h2 class="text-5xl font-extrabold mb-6 tracking-wide">About Me</h2>
+    <div class="flex flex-row justify-around mb-17 text-center lg:text-left">
+      <p class="text-gray-500 max-w-3xl text-lg leading-relaxed">
+        Passionate Full-Stack Developer with a keen focus on problem-solving 🧩. Currently pursuing a Bachelor’s in Information Technology 🎓 at Vishwakarma Institute of Technology, Pune, with a strong foundation in Data Structures & Algorithms, Web Development, and CS Fundamentals. Proficient in MERN & MEAN stack, Java, and modern technologies, I thrive on building scalable solutions and tackling complex challenges 💻.
       </p>
+      <div>
+         <img
+          src="/assets/profile.jpg"
+          alt="My Official Photo"
+          class="rounded-3xl shadow-lg object-cover w-[18rem] h-[22rem]"
+       />
+      </div>
     </div>
 
     <!-- 2nd Div: Flex container -->
-    <div class="flex flex-col lg:flex-row items-center justify-around gap-15">
+    <div class="flex flex-col lg:flex-row items-center justify-around gap-40">
       <!-- Left div: Bullet points -->
       <div class="flex-1 bg-gray-700 bg-opacity-30 rounded-2xl p-8 shadow-md max-w-xl mx-auto lg:mx-0">
         <ul class="relative text-white font-semibold space-y-12 text-xl max-w-md mx-auto">
@@ -67,43 +72,42 @@
       </div>
 
       <!-- Right div: Photo + overlay -->
-      <div class="relative flex-1 max-w-sm mx-auto lg:mx-0">
-        <img
-          src="assets/profile.jpg"
-          alt="My Official Photo"
-          class="rounded-3xl shadow-lg object-cover w-full h-auto"
-        />
+<div class="relative flex-1 max-w-sm mx-auto lg:mx-0">
+  <!-- Profile Image -->
 
-        <!-- Overlay stats -->
-        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-green-700 bg-opacity-90 px-4 py-5 flex space-x-3 text-white font-bold shadow-lg ">
-          <!-- Projects -->
-          <div class="text-center px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
-            <div class="text-4xl">20+</div>
-            <div class="text-sm uppercase tracking-wide">Projects</div>
-          </div>
 
-          <!-- Divider slash -->
-          <div class="flex flex-col ">
-            <div class="text-xl opacity-70">|</div>
-            <div class="text-xl opacity-70">|</div>
-            <div class="text-xl opacity-70">|</div>
-          </div>
-          
+  <!-- Overlay stats -->
+  <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-green-700 bg-opacity-90 px-6 py-4 flex items-center space-x-6 text-white font-bold shadow-lg rounded-xl">
+    
+    <!-- Projects -->
+    <div class="text-center px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
+      <div class="text-4xl">20+</div>
+      <div class="text-sm uppercase tracking-wide">Projects</div>
+    </div>
 
-          <!-- Patents and Publications -->
-          <div class="flex items-center space-x-4 text-center">
-            <div class="px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
-              <div class="text-2xl">2</div>
-              <div class="text-sm uppercase tracking-wide">Patents</div>
-            </div>
-            <div class="text-3xl opacity-70">/</div>
-            <div class="px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
-              <div class="text-2xl">6</div>
-              <div class="text-sm uppercase tracking-wide">Publications</div>
-            </div>
-          </div>
-        </div>
+    <!-- Divider -->
+    <div class="flex flex-col justify-center text-xl opacity-60 leading-none">
+      <span>|</span>
+      <span>|</span>
+      <span>|</span>
+    </div>
+
+    <!-- Patents & Publications -->
+    <div class="flex items-center space-x-4 text-center">
+      <div class="px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
+        <div class="text-2xl">2</div>
+        <div class="text-sm uppercase tracking-wide">Patents</div>
       </div>
+      <div class="text-3xl opacity-70 font-extrabold">/</div>
+      <div class="px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
+        <div class="text-2xl">6</div>
+        <div class="text-sm uppercase tracking-wide">Publications</div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
     </div>
   </div>
 </div>
