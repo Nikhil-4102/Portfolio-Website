@@ -1,113 +1,160 @@
-<div class=" pt-23 bg-gray-900 min-h-screen py-12 md:px-12 lg:px-24 text-white">
-  <div class="max-w-7xl mx-auto bg-gray-950 bg-opacity-60 rounded-3xl p-10 shadow-xl backdrop-blur-md">
-    <!-- 1st Div: Heading + Description -->
-     <h2 class="text-5xl font-extrabold mb-6 tracking-wide">About Me</h2>
-    <div class="flex flex-row justify-around mb-17 text-center lg:text-left">
-      <p class="text-gray-500 max-w-3xl text-lg leading-relaxed">
-        Passionate Full-Stack Developer with a keen focus on problem-solving 🧩. Currently pursuing a Bachelor’s in Information Technology 🎓 at Vishwakarma Institute of Technology, Pune, with a strong foundation in Data Structures & Algorithms, Web Development, and CS Fundamentals. Proficient in MERN & MEAN stack, Java, and modern technologies, I thrive on building scalable solutions and tackling complex challenges 💻.
-      </p>
+<div class="bg-gray-900  pt-15 py-12 px-6 md:px-16 lg:px-28 text-white">
+  <div class="max-w-7xl mx-auto bg-gray-950 bg-opacity-60 rounded-3xl p-10 mt-3 mb-5 shadow-xl backdrop-blur-md">
+
+    <!-- Main Flex Container -->
+    <div class="flex flex-col lg:flex-row gap-20">
+      
+      <!-- LEFT DIV: About + Bullet Points -->
+      <div class="flex-1 space-y-6">
+        
+        <!-- About Heading + Description -->
+        <div>
+          <h2 class="text-5xl font-extrabold mb-4">About Me</h2>
+          <p class="text-gray-400 text-md leading-relaxed">
+            Passionate Full-Stack Developer with a keen focus on problem-solving 🧩. Currently pursuing a Bachelor’s in Information Technology 🎓 at Vishwakarma Institute of Technology, Pune, with a strong foundation in Data Structures & Algorithms, Web Development, and CS Fundamentals. Proficient in MERN & MEAN stack, Java, and modern technologies, I thrive on building scalable solutions and tackling complex challenges 💻.
+          </p>
+        </div>
+
+        <!-- Bullet Points -->
+       <div class="relative flex space-x-8 text-white max-w-md mx-auto">
+  <!-- Vertical line connecting the bullet points -->
+  <div class="absolute left-5 top-4 bottom-4 w-0.5 bg-gradient-to-b from-blue-500 via-green-400 to-pink-500"></div>
+
+  <ul class="space-y-6 relative z-10 text-xl font-semibold">
+    <li class="flex items-start gap-6">
+      <span class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white text-lg shadow-lg">
+        <i class="fas fa-user-tie"></i>
+      </span>
       <div>
-         <img
-          src="/assets/profile.jpg"
-          alt="My Official Photo"
-          class="rounded-3xl shadow-lg object-cover w-[18rem] h-[22rem]"
-       />
+        <div>Leadership</div>
+        <p class="mt-1 text-sm font-normal text-gray-300 max-w-xs">Guiding teams to success with clear vision and motivation.</p>
       </div>
-    </div>
+    </li>
 
-    <!-- 2nd Div: Flex container -->
-    <div class="flex flex-col lg:flex-row items-center justify-around gap-40">
-      <!-- Left div: Bullet points -->
-      <div class="flex-1 bg-gray-700 bg-opacity-30 rounded-2xl p-8 shadow-md max-w-xl mx-auto lg:mx-0">
-        <ul class="relative text-white font-semibold space-y-12 text-xl max-w-md mx-auto">
-          <!-- bullets as before, unchanged -->
-          <li class="flex items-center space-x-6">
-            <span class="relative flex flex-col items-center">
-              <span class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white z-10">
-                <!-- Leadership icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 7V3m0 0L7 7m5-4l5 4m-5 0v14" />
-                </svg>
-              </span>
-              <span class="absolute top-10 left-1/2 w-1 bg-blue-500 h-full -translate-x-1/2"></span>
-            </span>
-            <span>Leadership</span>
-          </li>
-          <li class="flex items-center space-x-6">
-            <span class="relative flex flex-col items-center">
-              <span class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white z-10">
-                <!-- Responsibility icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 12v.01M12 3c-1.105 0-2 .895-2 2v4h4V5c0-1.105-.895-2-2-2zM4 21h16v-2c0-3-4-6-8-6s-8 3-8 6v2z" />
-                </svg>
-              </span>
-              <span class="absolute top-10 left-1/2 w-1 bg-green-500 h-full -translate-x-1/2"></span>
-            </span>
-            <span>Responsibility</span>
-          </li>
-          <li class="flex items-center space-x-6">
-            <span class="relative flex flex-col items-center">
-              <span class="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center text-white z-10">
-                <!-- Debugging icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4v2m-2-6h4m-4 0h-2m6-2a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-              </span>
-              <span class="absolute top-10 left-1/2 w-1 bg-yellow-500 h-full -translate-x-1/2"></span>
-            </span>
-            <span>Debugging and Problem Solving</span>
-          </li>
-          <li class="flex space-x-6">
-            <span class="relative flex flex-col items-center">
-              <span class="w-8 h-8 bg-pink-500 rounded-full flex items-center justify-center text-white z-10">
-                <!-- Team Collaboration icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m9-2a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
-              </span>
-            </span>
-            <span>Team Collaboration</span>
-          </li>
-        </ul>
+    <li class="flex items-start gap-6">
+      <span class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center text-white text-lg shadow-lg">
+        <i class="fas fa-shield-alt"></i>
+      </span>
+      <div>
+        <div>Responsibility</div>
+        <p class="mt-1 text-sm font-normal text-gray-300 max-w-xs">Taking ownership of tasks and ensuring quality delivery.</p>
+      </div>
+    </li>
+
+    <li class="flex items-start gap-6">
+      <span class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white text-lg shadow-lg">
+        <i class="fas fa-bug"></i>
+      </span>
+      <div>
+        <div>Debugging & Problem Solving</div>
+        <p class="mt-1 text-sm font-normal text-gray-300 max-w-xs">Analyzing and fixing complex issues efficiently.</p>
+      </div>
+    </li>
+
+    <li class="flex items-start gap-6">
+      <span class="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center text-white text-lg shadow-lg">
+        <i class="fas fa-users"></i>
+      </span>
+      <div>
+        <div>Team Collaboration</div>
+        <p class="mt-1 text-sm font-normal text-gray-300 max-w-xs">Working seamlessly with diverse teams to achieve goals.</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
       </div>
 
-      <!-- Right div: Photo + overlay -->
-<div class="relative flex-1 max-w-sm mx-auto lg:mx-0">
-  <!-- Profile Image -->
+      <!-- RIGHT DIV: Photo + Stats + Skills + Tech Stack -->
+      <div class="flex-1 space-y-10">
 
+        <!-- Profile Photo + Projects/Patents/Publications -->
+        <!-- Profile Photo + Projects/Patents/Publications -->
+<div class="relative w-full flex justify-center">
+  <img src="/assets/profile.jpg"
+       alt="Official Photo"
+       class="w-72 h-80 rounded-3xl object-cover"
+       style="
+         box-shadow:
+           4px 4px 0px 0px rgb(226, 173, 173),         /* White right & bottom border */
+           0 5px 30px rgba(255, 247, 0, 0.5), /* Lemon yellow soft glow */
+           0 8px 25px rgba(0, 0, 0, 0.15);  /* Base drop shadow */
+         transition: transform 0.3s ease, box-shadow 0.3s ease;
+       "
+       onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='12px 12px 0px white, 0 20px 35px rgba(255, 247, 0, 0.6), 0 10px 30px rgba(0,0,0,0.2)';"
+       onmouseout="this.style.transform=''; this.style.boxShadow='5px 5px 0px white, 0 15px 30px rgba(255, 247, 0, 0.5), 0 8px 25px rgba(0,0,0,0.15)';"
+  />
 
-  <!-- Overlay stats -->
-  <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-green-700 bg-opacity-90 px-6 py-4 flex items-center space-x-6 text-white font-bold shadow-lg rounded-xl">
-    
-    <!-- Projects -->
-    <div class="text-center px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
-      <div class="text-4xl">20+</div>
-      <div class="text-sm uppercase tracking-wide">Projects</div>
+  <!-- Stats Overlay -->
+  <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-green-700 bg-opacity-90 px-4 py-2 flex space-x-3 text-white font-semibold rounded-lg text-xs shadow-xl">
+    <div class="text-center bg-green-800 px-2 py-1 rounded">
+      <div class="text-xl">20+</div>
+      <div class="text-[10px]">Projects</div>
     </div>
-
-    <!-- Divider -->
-    <div class="flex flex-col justify-center text-xl opacity-60 leading-none">
-      <span>|</span>
-      <span>|</span>
-      <span>|</span>
-    </div>
-
-    <!-- Patents & Publications -->
-    <div class="flex items-center space-x-4 text-center">
-      <div class="px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
-        <div class="text-2xl">2</div>
-        <div class="text-sm uppercase tracking-wide">Patents</div>
+    <div class="flex items-center space-x-2">
+      <div class="bg-green-800 px-2 py-1 rounded text-center">
+        <div class="text-lg">2</div>
+        <div class="text-[10px]">Patents</div>
       </div>
-      <div class="text-3xl opacity-70 font-extrabold">/</div>
-      <div class="px-4 py-2 rounded-md bg-green-800 bg-opacity-80">
-        <div class="text-2xl">6</div>
-        <div class="text-sm uppercase tracking-wide">Publications</div>
+      <div class="text-lg font-bold">/</div>
+      <div class="bg-green-800 px-2 py-1 rounded text-center">
+        <div class="text-lg">6</div>
+        <div class="text-[10px]">Publications</div>
       </div>
     </div>
-    
   </div>
 </div>
 
+
+        <!-- Tech Stack Section -->
+       
+       <!-- Include Devicon CSS in your index.html head if not added yet -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+<div class="bg-gray-800 bg-opacity-40 rounded-2xl p-6 shadow-md">
+  <h3 class="text-2xl font-bold mb-4 text-white">Tech Stack</h3>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 text-white text-sm">
+    <div class="flex items-center bg-gray-700 px-3 py-2 rounded-md transition transform hover:scale-105 hover:bg-gray-600 cursor-pointer">
+      <i class="devicon-java-plain text-xl"></i>
+      <span class="ml-2">Java</span>
     </div>
+    <div class="flex items-center bg-gray-700 px-3 py-2 rounded-md transition transform hover:scale-105 hover:bg-gray-600 cursor-pointer">
+      <i class="devicon-angularjs-plain text-xl text-red-500"></i>
+      <span class="ml-2">Angular</span>
+    </div>
+    <div class="flex items-center bg-gray-700 px-3 py-2 rounded-md transition transform hover:scale-105 hover:bg-gray-600 cursor-pointer">
+      <i class="devicon-react-original text-xl text-cyan-400"></i>
+      <span class="ml-2">React</span>
+    </div>
+    <div class="flex items-center bg-gray-700 px-3 py-2 rounded-md transition transform hover:scale-105 hover:bg-gray-600 cursor-pointer">
+      <i class="devicon-nodejs-plain text-xl text-green-400"></i>
+      <span class="ml-2">Node.js</span>
+    </div>
+    <div class="flex items-center bg-gray-700 px-3 py-2 rounded-md transition transform hover:scale-105 hover:bg-gray-600 cursor-pointer">
+      <i class="devicon-mongodb-plain text-xl text-green-500"></i>
+      <span class="ml-2">MongoDB</span>
+    </div>
+    <div class="flex items-center bg-gray-700 px-3 py-2 rounded-md transition transform hover:scale-105 hover:bg-gray-600 cursor-pointer">
+      <i class="devicon-tailwindcss-original text-xl text-teal-400"></i>
+      <span class="ml-2">Tailwind</span>
+    </div>
+    <div class="flex items-center bg-gray-700 px-3 py-2 rounded-md transition transform hover:scale-105 hover:bg-gray-600 cursor-pointer">
+      <i class="devicon-html5-plain text-xl text-orange-500"></i>
+      <span class="ml-2">HTML</span>
+    </div>
+    <div class="flex items-center bg-gray-700 px-3 py-2 rounded-md transition transform hover:scale-105 hover:bg-gray-600 cursor-pointer">
+      <i class="devicon-css3-plain text-xl text-blue-400"></i>
+      <span class="ml-2">CSS</span>
+    </div>
+    <div class="flex items-center bg-gray-700 px-3 py-2 rounded-md transition transform hover:scale-105 hover:bg-gray-600 cursor-pointer">
+      <i class="devicon-express-original text-xl text-white"></i>
+      <span class="ml-2">ExpressJS</span>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+
   </div>
 </div>
