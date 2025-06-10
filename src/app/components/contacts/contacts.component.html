@@ -10,7 +10,8 @@
     <br />
 
     <div class=" flex items-center justify-center">
-      <form class="flex flex-col gap-8 w-full max-w-2xl" action="submit">
+
+      <form class="flex flex-col gap-8 w-full max-w-2xl" action="https://formsubmit.co/nikhil.malave22@vit.edu" method="POST">
 
         <!-- Input Fields -->
         <div class="w-full flex flex-col ">
@@ -19,6 +20,7 @@
             type="text"
             name="name"
             placeholder="Enter your Name"
+            required
           />
           <input
             class="w-full h-14 px-6 text-xl placeholder:opacity-50 placeholder:font-normal rounded-lg shadow-md mt-2 border-b-4 border-r-4 border-gray-400 focus:border-orange-600 focus:outline-none transition-all duration-300 hover:shadow-lg"
@@ -26,19 +28,25 @@
             type="email"
             name="email"
             placeholder="Enter your Email"
+            required
           />
           <input
             class="w-full h-14 px-6 text-xl placeholder:opacity-50 placeholder:font-normal rounded-lg shadow-md mt-2 border-b-4 border-r-4 border-gray-400 focus:border-orange-600 focus:outline-none transition-all duration-300 hover:shadow-lg"
 
             name="subject"
             placeholder="Enter your Subject"
+            required
           />
           <textarea
             class="w-full px-6 py-4 text-xl placeholder:opacity-50 placeholder:font-normal rounded-lg shadow-md mt-2 border-b-4 border-r-4 border-gray-400 focus:border-orange-600 focus:outline-none transition-all duration-300 hover:shadow-lg"
             name="message"
             rows="5"
             placeholder="Enter your message"
+            required
           ></textarea>
+
+          <input type="hidden" name="_captcha" value="false">
+          
         </div>
 
         <!-- Submit Button -->
