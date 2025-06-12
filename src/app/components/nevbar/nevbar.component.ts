@@ -8,6 +8,20 @@ import { RouterLink , RouterLinkActive} from '@angular/router';
   styleUrl: './nevbar.component.scss'
 })
 export class NevbarComponent {
+  // Angular - app.component.ts
+ngOnInit() {
+  const homeLink = document.querySelector('a[href="/"]');
+  if (homeLink) {
+    homeLink.addEventListener('click', (e) => {
+      e.preventDefault(); // prevent hard reload
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+}
+
 
  
 
