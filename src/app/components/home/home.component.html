@@ -19,22 +19,41 @@
       </p>
     </div>
 
-    <!-- YouTube Video -->
-    <div class="flex justify-center m-4">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/CQXGMwLwGSE?si=r7IU2NzECKKMpwcE"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+    <!-- 🔄 New Info Card with LinkedIn -->
+    <div class="flex justify-center mt-10 px-4">
+      <div class="bg-gradient-to-r from-blue-600 to-purple-600 p-[2px] rounded-xl shadow-xl w-full max-w-3xl">
+        <div class="bg-gray-800 rounded-xl p-6 md:p-8 text-center">
+          <h3 class="text-2xl font-bold mb-3">🚀 Explore My Portfolio</h3>
+          <p class="text-gray-300 text-lg mb-6">
+            Passionate about building full-stack solutions using modern frameworks and cloud tech.
+            Check out my projects, resume, and analytics expertise — let's connect!
+          </p>
+          <div class="flex justify-center">
+            <a
+  href="https://www.linkedin.com/in/nikhil-malave-02200b25a/"
+  target="_blank"
+  class="flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-indigo-500 hover:from-cyan-600 hover:to-indigo-600 text-white px-6 py-3 rounded-full font-semibold transition text-base"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="w-5 h-5"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+  >
+    <path
+      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.784 1.764-1.75 1.764zm13.5 11.268h-3v-5.604c0-1.337-.025-3.059-1.865-3.059-1.867 0-2.154 1.46-2.154 2.963v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.562 2.838-1.562 3.033 0 3.593 1.997 3.593 4.593v5.602z"
+    />
+  </svg>
+  Connect on LinkedIn
+</a>
+
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Buttons -->
-    <div class="flex justify-center gap-10">
+    <div class="flex justify-center gap-10 mt-10">
       <!-- Resume Button -->
       <button
         onclick="document.getElementById('resumeModal').classList.remove('hidden')"
@@ -69,55 +88,74 @@
   <!-- Resume Modal -->
   <div
     id="resumeModal"
-    class="hidden fixed inset-0 z-50 backdrop-blur-sm  flex items-center justify-center"
+    class="hidden fixed inset-0 z-50 backdrop-blur-sm flex items-center justify-center"
   >
     <!-- Modal Content -->
     <div
-  class="bg-gray-900 text-white p-8 rounded-xl shadow-2xl w-[90%] max-w-xl border border-gray-700 min-h-[250px] flex flex-col justify-between"
->
-  <h2 class="text-3xl font-bold mb-6 text-center text-white">Choose Resume</h2>
-
-  <!-- Side-by-side buttons with icons -->
-  <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
-    <a
-      href="https://drive.google.com/file/d/1kzm8YoH2y5ROIIfnCtoyl6emSs7SoZQS/view?usp=drive_link"
-      target="_blank"
-      class="w-full md:w-1/2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold px-6 py-3 rounded-lg text-center transition flex items-center justify-center gap-2"
+      class="bg-gray-900 text-white p-8 rounded-xl shadow-2xl w-[90%] max-w-xl border border-gray-700 min-h-[250px] flex flex-col justify-between"
     >
-      <!-- Dev icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round"
-          d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
-      </svg>
-      Developer Resume
-    </a>
+      <h2 class="text-3xl font-bold mb-6 text-center text-white">
+        Choose Resume
+      </h2>
 
-    <a
-      href="https://drive.google.com/file/d/17qF64shdzdqS8H3iThs25jYx2F3zreUA/view?usp=drive_link"
-      target="_blank"
-      class="w-full md:w-1/2 bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white font-semibold px-6 py-3 rounded-lg text-center transition flex items-center justify-center gap-2"
-    >
-      <!-- Analyst icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round"
-          d="M11 11V5h2v6h3l-4 4-4-4h3zM5 13h14v6H5v-6z" />
-      </svg>
-      Analyst Resume
-    </a>
-  </div>
+      <!-- Side-by-side buttons with icons -->
+      <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+        <a
+          href="https://drive.google.com/file/d/1kzm8YoH2y5ROIIfnCtoyl6emSs7SoZQS/view?usp=drive_link"
+          target="_blank"
+          class="w-full md:w-1/2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold px-6 py-3 rounded-lg text-center transition flex items-center justify-center gap-2"
+        >
+          <!-- Dev icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M16 18l6-6-6-6M8 6l-6 6 6 6"
+            />
+          </svg>
+          Developer Resume
+        </a>
 
-  <!-- Close Button -->
-  <div class="text-center mt-6">
-    <button
-      onclick="document.getElementById('resumeModal').classList.add('hidden')"
-      class="text-sm text-gray-400 hover:text-red-400 transition underline"
-    >
-      Close
-    </button>
-  </div>
-</div>
+        <a
+          href="https://drive.google.com/file/d/17qF64shdzdqS8H3iThs25jYx2F3zreUA/view?usp=drive_link"
+          target="_blank"
+          class="w-full md:w-1/2 bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white font-semibold px-6 py-3 rounded-lg text-center transition flex items-center justify-center gap-2"
+        >
+          <!-- Analyst icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11 11V5h2v6h3l-4 4-4-4h3zM5 13h14v6H5v-6z"
+            />
+          </svg>
+          Analyst Resume
+        </a>
+      </div>
 
+      <!-- Close Button -->
+      <div class="text-center mt-6">
+        <button
+          onclick="document.getElementById('resumeModal').classList.add('hidden')"
+          class="text-sm text-gray-400 hover:text-red-400 transition underline"
+        >
+          Close
+        </button>
+      </div>
+    </div>
   </div>
 </main>
