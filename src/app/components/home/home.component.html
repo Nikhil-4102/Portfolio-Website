@@ -30,55 +30,56 @@
           </p>
           <div class="flex justify-center">
             <a
-  href="https://www.linkedin.com/in/nikhil-malave-02200b25a/"
-  target="_blank"
-  class="flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-indigo-500 hover:from-cyan-600 hover:to-indigo-600 text-white px-6 py-3 rounded-full font-semibold transition text-base"
->
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    class="w-5 h-5"
-    viewBox="0 0 24 24"
-    fill="currentColor"
-  >
-    <path
-      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.784 1.764-1.75 1.764zm13.5 11.268h-3v-5.604c0-1.337-.025-3.059-1.865-3.059-1.867 0-2.154 1.46-2.154 2.963v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.562 2.838-1.562 3.033 0 3.593 1.997 3.593 4.593v5.602z"
-    />
-  </svg>
-  Connect on LinkedIn
-</a>
-
+              href="https://www.linkedin.com/in/nikhil-malave-02200b25a/"
+              target="_blank"
+              class="flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-indigo-500 hover:from-cyan-600 hover:to-indigo-600 text-white px-6 py-3 rounded-full font-semibold transition text-base"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.784 1.764-1.75 1.764zm13.5 11.268h-3v-5.604c0-1.337-.025-3.059-1.865-3.059-1.867 0-2.154 1.46-2.154 2.963v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.562 2.838-1.562 3.033 0 3.593 1.997 3.593 4.593v5.602z"
+                />
+              </svg>
+              Connect on LinkedIn
+            </a>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Buttons -->
-    <div class="flex justify-center gap-10 mt-10">
+    <!-- 🔘 Buttons (Responsive) -->
+    <div class="flex flex-col md:flex-row justify-center items-center gap-4 mt-10 px-4">
       <!-- Resume Button -->
-      <button
-        onclick="document.getElementById('resumeModal').classList.remove('hidden')"
-        class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg flex items-center gap-2.5 transition text-xl"
-      >
-        <svg
-          class="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          viewBox="0 0 24 24"
+      <div class="w-full md:w-auto">
+        <button
+          onclick="document.getElementById('resumeModal').classList.remove('hidden')"
+          class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg flex items-center justify-center gap-2.5 transition text-xl"
         >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"
-          />
-        </svg>
-        Resume
-      </button>
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"
+            />
+          </svg>
+          Resume
+        </button>
+      </div>
 
       <!-- Contact Button -->
       <a
         href="#contact"
-        class="bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg transition text-xl"
+        class="w-full md:w-auto bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg transition text-xl text-center"
       >
         Contact Me
       </a>
@@ -92,7 +93,7 @@
   >
     <!-- Modal Content -->
     <div
-      class="bg-gray-900 text-white p-8 rounded-xl shadow-2xl w-[90%] max-w-xl border border-gray-700 min-h-[250px] flex flex-col justify-between"
+      class="bg-gray-900 text-white p-6 md:p-8 rounded-xl shadow-2xl w-[95%] max-w-xl border border-gray-700 min-h-[250px] flex flex-col justify-between"
     >
       <h2 class="text-3xl font-bold mb-6 text-center text-white">
         Choose Resume
@@ -101,7 +102,7 @@
       <!-- Side-by-side buttons with icons -->
       <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
         <a
-          href="https://drive.google.com/file/d/1kzm8YoH2y5ROIIfnCtoyl6emSs7SoZQS/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1L15rOyPepmSAWzJuHnSmHeltiULf-g9-/view?usp=sharing"
           target="_blank"
           class="w-full md:w-1/2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold px-6 py-3 rounded-lg text-center transition flex items-center justify-center gap-2"
         >
@@ -124,7 +125,7 @@
         </a>
 
         <a
-          href="https://drive.google.com/file/d/17qF64shdzdqS8H3iThs25jYx2F3zreUA/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1Siai5RFSBQr8QiFMYOM6vpfTA6a4HgqV/view?usp=sharing"
           target="_blank"
           class="w-full md:w-1/2 bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white font-semibold px-6 py-3 rounded-lg text-center transition flex items-center justify-center gap-2"
         >
